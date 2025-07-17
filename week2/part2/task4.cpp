@@ -2,7 +2,7 @@
  * Make a program to take two numbers from user
 Print summation, multiplication and subtraction of this two numbers
 *
-* Author: Legacy
+* By: Legacy
 * */
 
 #include <iostream>

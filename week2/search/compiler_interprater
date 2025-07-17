@@ -1,0 +1,42 @@
+     Understanding Compiler vs Interpreter
+
+As we know, a computer does not understand human language. It only understands binary language — 0s and 1s. However, as humans, we cannot understand or write programs in binary easily.
+
+To solve this, we use high-level programming languages to instruct the computer what to do. But since the computer doesn’t understand high-level languages directly, we need something to translate our code into a language the computer understands.
+
+This is where assemblers, compilers, and interpreters come in — they serve as translators between humans and machines.
+
+----
+
+Compiler
+
+    A compiler is a translator that takes code written in a high-level programming language and converts it into a low-level language, such as assembly or machine language.
+
+The process generally involves two steps:
+
+    1. The high-level language is converted into assembly code by the compiler.
+
+    2. The assembler then converts the assembly code into machine code.
+
+The result is a separate executable file that can be run independently.
+
+
+---
+
+Interpreter
+
+    An interpreter also translates high-level language, but in a different way.
+    Instead of compiling the whole program at once, it translates and runs the code line by line — one statement at a time.
+
+    It often works with a mix of pre-compiled code and source code, depending on the language.
+
+----
+
+Difference between them
+    - compiler compile the whole code once and get the machine code as separate file. Otherwise, interpreter interpret the code step by step only one statement per step.
+    - compiler is faster more than interpreter.
+    - compiler show all errors at once, but interpreter shows errors one by one
+    - compiler batter for large programs. Otherwise, interpreter better for debugging and learning
+    - compiler used in language like c, cpp, Rust and Go etc. Otherwise,  interpreter used in python, JavaScript, php and  Ruby.
+    - compiler uses more memory  because storied compiled file. Otherwise,  interpreter uses less memory but more cpu resources while running.
+

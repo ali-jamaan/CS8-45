@@ -2,7 +2,7 @@
  * Write following c++ code to print your name and then in the next line your university or (your job) then in the next line
 your age.
 *
-* Auther: Legacy
+* By: Legacy
 * */
 
 #include <iostream>

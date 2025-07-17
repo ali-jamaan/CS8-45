@@ -4,7 +4,7 @@ Name	Age 	Country
 Ali	    20  	Egypt
 Sara	19	    Jordan
 *
-* Auther: Legacy
+* By: Legacy
 * */
 
 #include <iostream>

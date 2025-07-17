@@ -4,7 +4,7 @@ Welcome to C++!
 This is my first program.
 I am excited to learn.
 *
-*Auther: Legacy
+*By: Legacy
 */
 
 #include <iostream>

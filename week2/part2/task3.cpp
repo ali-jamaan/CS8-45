@@ -3,7 +3,7 @@
 Print “yes” if first number is greater than second number
 Otherwise print “no”.
 *
-* Author: Legacy
+* By: Legacy
 * */
 
 #include <iostream>

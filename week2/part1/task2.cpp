@@ -5,7 +5,7 @@ He said:
     This is a backslash: \
     Let's go!
 *
-* Author: Legacy
+* By: Legacy
 * */
 
 #include <iostream>

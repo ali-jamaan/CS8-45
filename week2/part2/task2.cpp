@@ -10,7 +10,7 @@ A
 3423423.45345
 734586376485628
 *
-* Auther: Legacy
+* By: Legacy
 * */
 
 #include <iostream>
