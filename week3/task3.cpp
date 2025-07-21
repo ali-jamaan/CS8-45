@@ -15,9 +15,15 @@ int main(void){
     cout << "B Number? ";
     cin >> B;
 
+    cout << (A >= B ? "Yes" : "No") << endl;
+
+    /* 
     if (A >= B ){
         cout << "Yes\n";
     }else{
         cout << "No\n";
     }
+    */
+    
+    return 0;
 }
