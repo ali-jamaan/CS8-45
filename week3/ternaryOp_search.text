@@ -1,0 +1,25 @@
+ternary operator:
+
+	it is anther name for short-hand if...else, this name because it consists of three operands
+
+	also known as the conditional operator, is shorthand way to write conditional statements. it represented by the symbols ? and : and takes three oprands. the syntax is as follows:
+
+condition ? expression1 : expression2;
+
+	Here is condition i evaluated first. if it is true, expression1 is executed and becomes the value of the entire expression.
+
+for example, consider the following code:
+
+int A = 30, B = 20;
+int max = (A >= B) ? A : B;
+
+in this example, the ternary operator checks if A is greater than or equal B. if true, it assigns A to max; Otherwise, it assigns B.
+
+The ternary operator can by more complex more than that and nested like:
+
+int A = 40, B = 10, C = 21;
+int max = (A > B) ? ((A > C) ? A : C): ((B > C) ? B : C);
+
+this code evaluates the largest of three numbers using nested ternary operators.
+
+	it is importer to note that the ternary operator should be used for short conditional code. Fot large code, it is generally preferred to used if-else statements for better readability.
