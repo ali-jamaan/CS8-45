@@ -1,0 +1,108 @@
+Week 4 Tasks 
+===========
+
+Task 1:
+ * What will be printed by this block of c++ code?
+ * in File Name "doubleUntilLimit.cpp"
+	
+int n = 10;
+while (n < 50) 
+{ 
+n = n * 2; 
+}
+cout << n << endl;
+
+A. 10 
+B. 40 
+C. 50 
+D. 80
+
+ * Answere: D. 80
+
+
+Task2:
+------
+
+ * Write a programme that prints even numbers between 0 and 100
+ * in File name "evenNum.cpp"
+
+    int num =100;
+
+    //printing even number from 0 to 100
+    cout << "Even: ";
+    for(int i = 2; i <= 100; i+=2)
+    {
+        cout << i<< " ";
+    }
+
+    cout<< endl;
+
+Task 3:
+-------
+
+ * Write a programme that prints the odd numbers between 0 and 100.
+ * in File name "oddNum.cpp"
+
+    int num =100;
+
+    //printing even number from 0 to 100
+    cout << "Even: ";
+    for(int i = 2; i <= 100; i+=2)
+    {
+        cout << i<< " ";
+    }
+
+    cout<< endl;
+
+
+Task 4:
+------
+
+ * Write the factorial program. It should return the product of all the numbers from 1 to the parameter n. For example, when the user enters: 5, it should return 120 because 5 * 4 * 3 * 2 * 1 = 120. Think about what kind of loop you want to use to accomplish this.
+ * in File nume "factorial.cpp"
+
+    int num;
+    int fact = 1;
+    //asking user to input a number
+    cout<< "Number ";
+    cin >> num ;
+
+    // check if user input a number less than one
+    if (num < 1 )
+    {
+        cout<< "Invalid Number!"<<endl;
+    }else
+    {
+        //calculating factorial of the number
+        cout << "Factorial of " << num << " is ";
+        for(; num >1; num--)
+        {
+            fact *= num;
+        }
+        cout << fact <<endl;
+    }
+
+
+Task 5:
+-------
+
+ * using loop print this 
+	####
+	###
+	##
+	#
+ * in File name "reverseTriangle.cpp"
+
+// code
+    int num = 4;
+
+    for (int i =0; i <num ; i++)
+    {
+        for(int j= 1; j <= num-i ; j++)
+        {
+            cout << "#";
+        }
+        cout <<endl;
+    }
+
+
