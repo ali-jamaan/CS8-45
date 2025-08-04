@@ -1,3 +1,14 @@
+/*
+*Make a program to take number n and then take n numbers from user then replace all (2) in with 0
+Example:
+Input:
+5
+2 5 7 2 1
+Output:
+0 7 5 0 1
+** BY: Legacy
+*/
+
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,14 @@
+/*
+write a program that:
+    1- Asks the user to enter names and 2 subject marks (e.g. Math and English) for 3 students.
+    2- Stores data in arrays.
+    3- Calculates the total marks for each student.
+    4- Prints the table below:
+output:
+    Name    Math    English     Total
+    Ali     80      90          170
+* *By: Legacy   
+*/
 #include <iostream>
 #include <string>
 
